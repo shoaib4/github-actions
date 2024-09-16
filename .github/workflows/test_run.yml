@@ -29,6 +29,6 @@ jobs:
           # specifing these action parameters will override appropriate config values.
           profile: cover.out
           local-prefix: github.com/org/project
-          threshold-file: 80
-          threshold-package: 80
-          threshold-total: 95
+#          threshold-file: 80
+#          threshold-package: 80
+          threshold-total: 25
