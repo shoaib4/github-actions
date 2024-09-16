@@ -17,7 +17,7 @@ jobs:
       - name: setup go
         uses: actions/setup-go@v5
         with:
-          go-version: '1.23.1'
+          go-version: '1.23.0'
       - name: test go
         run: go test ./... -coverprofile=./cover.out -covermode=atomic -coverpkg=./...
 
